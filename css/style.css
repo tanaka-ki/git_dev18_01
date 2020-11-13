@@ -1,0 +1,105 @@
+/* ここから下に記載していく */
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul.header_nav{
+    display: flex;
+
+}
+
+.header_nav li{
+    margin-left: 40px;
+}
+
+.mainvisual{
+ height: 400px;
+
+ background:url("../img/mainbg.png");
+
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.mainvisual_title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200pt;
+
+}
+.mainvisual_subtitle{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30pt;
+
+}
+
+.about_title{
+    font-size: 30px;
+    color: rgb(173, 49, 49);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.about_subtitle{
+    font-size: 30px;
+    color: rgb(15, 4, 4);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about_txet{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.imgBox{
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.imgBox p{
+    width: 25%;
+
+}
+.imgBox p img{
+   width: 100%;
+
+}
+
+.Course
+{
+    margin: 25px;
+
+}
+.Course_title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.Course_text{
+   
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 0.8;
+
+
+}
+.newsBox li{
+    float: left;
+    margin-bottom: 50px;
+}
